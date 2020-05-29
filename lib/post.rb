@@ -17,6 +17,7 @@ if @author == nil
 return nil
 else
 @author.name
-end
-end
+    end
+  end
+
 end
