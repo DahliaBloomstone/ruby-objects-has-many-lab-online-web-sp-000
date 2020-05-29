@@ -8,6 +8,7 @@ end
 
 #calling self.all from the class Song, will return the array
 def songs #where can we get a list of all the songs? The song class. What is holding it? .all
+binding.pry
 Song.all.select do |song| #<--Song refers to actual class of Song.
 song.artist == self #access attribute via song.artist comparing it to the object itself.
 end                 #instance of the object itself = self.
@@ -24,7 +25,7 @@ end
 
 def self.song_count
 #binding.pry. self => Artist
-Song.all.count 
+Song.all.count
 end
 
 end
