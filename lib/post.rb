@@ -8,9 +8,9 @@ def initialize(title)
 @@all << self
 end
 
-def self.all?
+def self.all
 @@all
-end 
+end
 
 def author_name
 if @author == nil
